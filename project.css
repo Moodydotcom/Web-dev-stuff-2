@@ -1,0 +1,90 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    color: gold;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/7a/4a/73/7a4a73ed65efc2458cb64239ccb92295.gif);
+    background-size: cover;
+    background-position: top;
+    padding:20px;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.header p{
+    border: 1px outset #5f175f;
+    background-color:#4D2FB2
+} 
+body{
+    background-image: url(https://i.pinimg.com/originals/de/7b/d6/de7bd6a32ee6aba8ab6da671aa4df54b.gif);
+    margin:0;
+    padding:0;
+    line-height:1.7;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: cover;      /* Ensures the entire image is visible */
+}
+.navigator{
+    background-color: #4d4dbe;
+    text-align: center;
+    padding: 20px; 
+    margin-top: 0;
+    word-spacing: 50px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    position: sticky; top:0;
+}
+.navigator span, i{
+    font-weight: bold;
+    color: #b959df;
+    cursor: pointer;
+    display: inline-block;
+    transition:color 0.3s ease;
+}
+.navigator span:hover{
+    color: #F375C2;
+    text-decoration: underline;
+}
+.navigator a, i{
+    text-decoration: none;
+}
+.fa-solid.fa-house,
+.fa-solid.fa-circle-user,
+.fa-solid.fa-trophy,
+.fa-solid.fa-at{
+    color: gold;
+}
+.box{
+    background-color: #400570;
+    flex: 1;
+    border: 5px #59079C outset;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    justify-content: center;
+    align-items: center;
+}
+.greetings{
+    background-color: #9E0BF4;
+    color: gold;
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky; bottom:0;
+}

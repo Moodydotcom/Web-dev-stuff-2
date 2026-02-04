@@ -1,0 +1,145 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    color: gold;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/7a/4a/73/7a4a73ed65efc2458cb64239ccb92295.gif);
+    background-size: cover;
+    background-position: top;
+    padding:20px;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.header p{
+    border: 1px outset #5f175f;
+    background-color:#4D2FB2
+} 
+body{
+    background-image: url(https://i.pinimg.com/originals/de/7b/d6/de7bd6a32ee6aba8ab6da671aa4df54b.gif);
+    margin:0;
+    padding:0;
+    line-height:1.7;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: cover;      /* Ensures the entire image is visible */
+}
+.navigator{
+    background-color: #4d4dbe;
+    text-align: center;
+    padding: 20px; 
+    margin-top: 0;
+    word-spacing: 50px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    position: sticky; top:0;
+}
+.fa-solid.fa-house,
+.fa-solid.fa-circle-user,
+.fa-solid.fa-trophy,
+.fa-solid.fa-at{
+    color: gold;
+
+}
+.navigator span, i, .contacts span{
+    font-weight: bold;
+    color: #b959df;
+    cursor: pointer;
+    display: inline-block;
+    transition:color 0.3s ease;
+}
+.navigator span:hover, .contacts span:hover{
+    color: #F375C2;
+    text-decoration: underline;
+}
+.navigator a, i{
+    text-decoration: none;
+}
+.box{
+    background-color: #400570;
+    flex: 2;
+    border: 5px #59079C outset;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.forms{
+    margin:20px;
+    padding: 20px;
+    margin-bottom: 19px;
+    background-color: #9E0BF4;
+    flex-wrap: wrap;
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+    Height: auto;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+.forms:hover{
+    transition: 2s ease;
+    transform: scale(1.3s);
+}
+label{
+    font-weight: bold;
+}
+input{
+    font-weight: bold;
+}
+input,
+textarea{
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid gold;
+    background-color: #d67cfa;
+}
+button{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    border: 1px solid gold;
+}
+.sidebar{
+    margin:20px;
+    padding: 20px;
+    background-color: #9E0BF4;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 500px;
+    height: 281px;
+}
+.contacts{
+    flex-direction: column;
+    justify-content: start;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky; bottom:0;
+}
+.fa-brands.fa-tiktok{
+    color: black;
+}
+.fa-brands.fa-spotify{
+    color: #1DB954;
+}
+.fa-brands.fa-square-instagram{
+    color: #FCAF45;
+}
+.fa-brands.fa-discord{
+    color: #5865F2;
+}
